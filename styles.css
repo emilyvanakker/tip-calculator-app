@@ -32,9 +32,25 @@ article {
     border-radius: 15px;
 }
 
+label {
+    font-size: small;
+}
+
+.radioBtn {
+    background-color: hsl(183, 100%, 15%);
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+    font-weight: bold;
+} 
+
+.radioBtn:hover, .btn-check:checked {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
 td {
     color: hsl(0, 0%, 100%);
-    font-weight: bold;
+    font-weight: 500;
 }
 
 td span {
@@ -46,7 +62,7 @@ td span {
 .dollar_amount {
     color: hsl(172, 67%, 45%);
     text-align: right;
-    font-size: xx-large;
+    font-size: 24px;
     font-weight: 700;
 }
 
